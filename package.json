@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -18,9 +18,13 @@
     "@angular/forms": "~11.2.6",
     "@angular/platform-browser": "~11.2.6",
     "@angular/platform-browser-dynamic": "~11.2.6",
-    "@angular/router": "~11.2.6",
+    "@angular/router": "^11.2.8",
+    "angular-new-router": "angular/router",
+    "jss": "^10.6.0",
+    "jss-preset-default": "^10.6.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
+    "typestyle": "^2.1.0",
     "zone.js": "~0.11.3"
   },
   "devDependencies": {
